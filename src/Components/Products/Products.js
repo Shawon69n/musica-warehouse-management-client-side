@@ -7,7 +7,7 @@ const Products = () => {
     const [Products] = useProducts();
     return (
         <div className='container'>
-            <h3>Itmes</h3>
+            <h3 className='mt-5'>Items</h3>
 
            <div className='products-container'>
            {Products.map(product => <ProductCard product={product} key={product.id}></ProductCard>)}

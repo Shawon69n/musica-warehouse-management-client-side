@@ -11,3 +11,12 @@
     font-weight: 700;
     font-family: serif;
 }
+
+.sign-out-btn{
+    background-color: rgb(141, 174, 218);
+    margin-left: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+}

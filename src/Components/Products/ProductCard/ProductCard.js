@@ -11,6 +11,8 @@ const ProductCard = (props) => {
         <Card.Body>
             <Card.Title>{name}</Card.Title>
             <h5>{price + '$'}</h5>
+            <p>Brand : {supplier}</p>
+            <p>Quantity : {quantity}</p>
             <Card.Text>
             {description}
             </Card.Text>

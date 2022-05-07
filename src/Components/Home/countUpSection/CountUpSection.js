@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 const CountUpSection = () => {
     return (
         <div>
-            <div class="container mt-5">
+            <div class="container margin-top">
 
                 <h1>Our achivement</h1>
                     <div class="row">
