@@ -1,0 +1,11 @@
+
+.count-box{
+    width: 200px;
+    height: 150px;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
