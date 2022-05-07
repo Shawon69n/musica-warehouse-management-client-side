@@ -3,4 +3,11 @@
     width: 300px;
     height: 400px;
     margin-left: 40px;
+    margin-top: 20px;
+}
+
+.image-config{
+    width: 20%;
+    margin-left: 110px;
+    margin-top: 10px;
 }

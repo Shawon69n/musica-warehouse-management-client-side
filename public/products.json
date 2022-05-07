@@ -1,38 +1,50 @@
 [
     {
-        "name": "ENGINE DIAGNOSTIC",
+        "name": "Fender G9",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "quantity" : 10,
+        "supplier" : "Fender",
+        "description": "Featuring a unique alder body, slightly smaller and more contoured than a standard Stratocaster, this detailed recreation of Niles original Hitmaker provides a comfortable playing experience.",
+        "img": "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0147323330_fen_ins_frt_1_rr.jpg"
     },
     {
-        "name": "WHEEL ALIGNMENT",
+        "name": "Telecaster",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "quantity" : 30,
+        "supplier" : "Ibanez",
+        "description": "The Fender Jim Root Telecaster delivers plenty of modern features for big sounds! As the guitarist for bands like Slipknot and Stone Sour, Jim knows what goes into making a great playing and sounding guitar..",
+        "img": "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0118010712_gtr_frt_001_rr.jpg"
     },
     {
-        "name": "OIL CHANGING",
+        "name": "Blackster amp",
         "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "quantity" : 50,
+        "supplier" : "Marshall",
+        "description": "Whether a beginner or a pro when you play we want you to have the best possible playing experience. That’s why the same R&D team responsible for our professional amps also designed the ID:Core V3.",
+        "img": "https://media.istockphoto.com/vectors/amplifier-vector-id165551630?k=20&m=165551630&s=612x612&w=0&h=5yxfOU39XwSX3rGEcwmJtXUJE361RGHI92yCvF7xKws="
     },
     {
-        "name": "BRAKE REPARING",
+        "name": "BOSS GT-1",
         "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "quantity" : 20,
+        "supplier" : "Epiphone",
+        "description": "A streamlined interface enables quick and intuitive sound creation, while an assignable control switch and expression pedal provide dynamic real-time effects adjustment.",
+        "img": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzgxUDhOMHZJZ09MLl9TUzQwMF8uanBn.jpg"
     },
     {
-        "name": "WASH AND GLASSING",
+        "name": "Akai Professional LPK25 ",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "quantity" : 10,
+        "supplier" : "Yamaha",
+        "description": "The LPK25 laptop performance keyboard is a USB-MIDI controller for musicians, producers, DJs and other music creators. It measures less than 13 inches across and weighs less than a pound to easily fit into a laptop case, backpack or messenger bag for extreme portability.",
+        "img": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFuU1E3MVotU0wuX0FDX1NMMTM3NF8uanBn.jpg"
     },
     {
-        "name": "COMPLETE ANALYSIS",
+        "name": "Basix Drum Set",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+        "quantity" : 15,
+        "supplier" : "TMG ltd",
+        "description": "With the backing of our diligent crew of executives, we are immersed in bringing forward an inclusive Musical Drums Set.  Product Details: Ruggedness Reliable Excellent sound",
+        "img": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/467180/14593713_800.jpg"
     }
 ]
