@@ -6,10 +6,12 @@ import './Products.css'
 const Products = () => {
     const [Products] = useProducts();
     return (
-        <div>
+        <div className='container'>
             <h3>Itmes</h3>
 
-            {Products.map(product => <ProductCard product={product} key={product.id}></ProductCard>)}
+           <div className='products-container'>
+           {Products.map(product => <ProductCard product={product} key={product.id}></ProductCard>)}
+           </div>
         </div>
     );
 };

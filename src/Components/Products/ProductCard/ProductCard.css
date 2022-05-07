@@ -1,0 +1,6 @@
+.card-box{
+    box-shadow: rgba(6, 56, 221, 0.25) 0px 50px 100px -20px, rgba(248, 245, 245, 0.3) 0px 30px 60px -30px, rgba(199, 199, 199, 0.35) 0px -2px 6px 0px inset;
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+}
