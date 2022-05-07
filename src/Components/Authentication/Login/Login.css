@@ -20,7 +20,7 @@
     box-shadow: rgba(46, 179, 240, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(46, 137, 240, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     border-top: 1px solid rgb(160, 160, 160) ;
     border-right: 1px solid rgb(160, 160, 160) ;
-    border-radius: 5px;
+    border-radius: 50px;
     margin: 4rem auto;
     
     
@@ -37,7 +37,7 @@
 
 .login-form {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .login-container label,
@@ -76,7 +76,7 @@
 
 .login-container button {
     color: white;
-    margin-top: 50px;
+    margin-top: 30px;
     background:  #57abe4;
     height: 40px;
     border-radius: 20px;

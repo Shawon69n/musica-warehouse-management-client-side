@@ -27,7 +27,7 @@ const Header = () => {
 <Link className='link-css' to='/inventory'>Inventory</Link>
 <Link className='link-css' to='/items'>Items</Link>
 
-{user? <p onClick={handleSignOut} className='sign-out-btn'><span className='text-white span-text'>sign out</span></p> : <Link as={Link} to='/login'> <span className='text-white link-css'>Log in</span></Link>}
+{user? <p onClick={handleSignOut} className='sign-out-btn'><span className='text-white span-text'>sign out</span></p> : <Link as={Link} to='/login'> <span className='text-white link-css text-deco'>Log in</span></Link>}
 </Nav>
 </Navbar.Collapse>
 </Container>

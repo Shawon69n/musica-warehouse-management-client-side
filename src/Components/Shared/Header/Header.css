@@ -20,3 +20,7 @@
     margin-top: 2px;
     cursor: pointer;
 }
+
+.text-deco{
+    text-decoration: none;
+}
