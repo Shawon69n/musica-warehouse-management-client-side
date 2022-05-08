@@ -46,5 +46,37 @@
         "supplier" : "TMG ltd",
         "description": "With the backing of our diligent crew of executives, we are immersed in bringing forward an inclusive Musical Drums Set.  Product Details: Ruggedness Reliable Excellent sound",
         "img": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/467180/14593713_800.jpg"
+    },
+    {
+        "name": "Spanish mini guitar",
+        "price": "700",
+        "quantity" : 5,
+        "supplier" : "sahara",
+        "description": "Mini Classical Guitar Wooden Miniature Guitar Model Musical Instrument 2021 Guitarra Decoration Gift With Case Stand Coffee",
+        "img": "https://ae01.alicdn.com/kf/Haac9a840cda44f22955e3bcd75610dccc/Mini-Classical-Guitar-Wooden-Miniature-Guitar-Model-Musical-Instrument-2021-Guitarra-Decoration-Gift-With-Case-Stand.jpg_Q90.jpg_.webp"
+    },
+    {
+        "name": "Mapple fretboard",
+        "price": "100",
+        "quantity" : 60,
+        "supplier" : "Mapple",
+        "description": "21 Maple Wood Fret Maple Glossy Natural ST Electric Guitar Neck Fingerboard Replacement with Necessary Guitar Parts Accessories",
+        "img": "https://ae01.alicdn.com/kf/H76186668b2ce420f8446fe71bb1d73cdn/21-Maple-Wood-Fret-Maple-Glossy-Natural-ST-Electric-Guitar-Neck-Fingerboard-Replacement-with-Necessary-Guitar.jpg_Q90.jpg_.webp"
+    },
+    {
+        "name": "10 X Guitar Picks ",
+        "price": "300",
+        "quantity" : 200,
+        "supplier" : "Alice",
+        "description": "10 Pcs Guitar Picks Plectrum Celluloid Electric Smooth Guitar Pick Bass Acoustic Guitar Musical Accessories 0.46/0.71/0.96mm",
+        "img": "https://ae01.alicdn.com/kf/H63a799328f4f4233b42f141684d330f0c/10-Pcs-Guitar-Picks-Plectrum-Celluloid-Electric-Smooth-Guitar-Pick-Bass-Acoustic-Guitar-Musical-Accessories-0.jpg_Q90.jpg_.webp"
+    },
+    {
+        "name": "Alice Capo ",
+        "price": "40",
+        "quantity" : 40,
+        "supplier" : "Alice",
+        "description": "3 Colors Plastic Guitar Capo Super Easy To Use for 6 String Acoustic Classic Electric GuitarTuning Clamp Guitar Accessories",
+        "img": "https://ae01.alicdn.com/kf/H09988f6a284544c7aa2878bcaa91c388R/3-Colors-Plastic-Guitar-Capo-Super-Easy-To-Use-for-6-String-Acoustic-Classic-Electric-GuitarTuning.jpg_220x220xz.jpg_.webp"
     }
 ]

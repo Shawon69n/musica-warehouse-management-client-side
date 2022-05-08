@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Login from './Components/Authentication/Login/Login';
 import Register from './Components/Authentication/Register/Register';
+import RequiredAuth from './Components/Authentication/RequiredAuth/RequiredAuth';
 import Home from './Components/Home/Home';
 import ProductDetail from './Components/Products/ProductDetail/ProductDetail';
 import Footer from './Components/Shared/Footer/Footer';
@@ -18,7 +19,7 @@ function App() {
     <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/products/:productId' element={<ProductDetail></ProductDetail>}></Route>
+        <Route path='/products/:productId' element={<RequiredAuth><ProductDetail></ProductDetail></RequiredAuth>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<Notfound></Notfound>}></Route>

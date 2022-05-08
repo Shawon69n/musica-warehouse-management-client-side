@@ -24,7 +24,7 @@ const Products = () => {
             <h3 className='mt-5'>Items</h3>
 
            <div className='products-container'>
-           {products?.map(product => <>
+           {products?.slice(1,7).map(product => <>
                 
             <div class="card">
     <div class="card-header">
