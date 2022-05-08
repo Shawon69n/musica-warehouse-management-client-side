@@ -1,8 +1,15 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import './ProductCard.css'
 const ProductCard = (props) => {
-    const {name,price,img,description,quantity,supplier} = props.product;
+    const {name,price,img,description,quantity,supplier,_id} = props.product;
+
+    const navigate = useNavigate();
+
+    const handleDeliveryBtn = id =>{
+        navigate(`/products/${id}`)
+    }
     return (
         <div>
 
@@ -17,7 +24,7 @@ const ProductCard = (props) => {
             {description}
             </Card.Text>
         </Card.Body>
-        <button className='btn btn-primary'>Delivery</button>
+        <button onClick={() => handleDeliveryBtn(_id)} className='btn btn-primary'>Delivery</button>
         </Card>
 
         </div>
