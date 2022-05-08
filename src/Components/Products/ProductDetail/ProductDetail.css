@@ -4,7 +4,6 @@
     color: #fafafa;
     background-color: rgb(50, 101, 209);
     font-weight: 700;
-    margin-right: 50px;
     padding: 5px;
 }
 .input-btn{
@@ -17,6 +16,8 @@
 }
 
 .input{
-    width: 70px;
+    margin-top: 10px;
+    width: 150px;
     padding: 5px;
+    border: 1px dashed slateblue;
 }
