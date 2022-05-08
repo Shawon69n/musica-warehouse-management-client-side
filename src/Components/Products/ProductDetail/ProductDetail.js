@@ -11,6 +11,9 @@ const ProductDetail = () => {
         .then(res => res.json())
         .then(data => setProduct(data))
     },[])
+
+    
+
     return (
 
     <div className='container'>
