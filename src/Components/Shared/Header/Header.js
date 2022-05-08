@@ -9,6 +9,7 @@ const Header = () => {
   const [user] = useAuthState(auth)
   const handleSignOut = () =>{
     signOut(auth);
+  
   }
     return (
       <nav>
@@ -24,10 +25,15 @@ const Header = () => {
 
 <Nav>
 <Link className='link-css' to='/home'>Home</Link>
-<Link className='link-css' to='/inventory'>Inventory</Link>
-<Link className='link-css' to='/items'>Items</Link>
+{!user && <Link className='link-css' to='/Blogs'>Blogs</Link>
+}
+{user &&  <Link className='link-css' to='/manageinventory'>Manage Inventory</Link> }
+{user && <Link className='link-css' to='/addproduct'>Add Product</Link> }
 
 {user? <p onClick={handleSignOut} className='sign-out-btn'><span className='text-white span-text'>sign out</span></p> : <Link as={Link} to='/login'> <span className='text-white link-css text-deco'>Log in</span></Link>}
+
+
+
 </Nav>
 </Navbar.Collapse>
 </Container>
