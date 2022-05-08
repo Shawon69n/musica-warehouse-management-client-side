@@ -5,7 +5,7 @@ import {GrInstagram} from 'react-icons/gr'
 import './Footer.css'
 const Footer = () => {
     return (
-        <footer className=''>
+        <footer className='position' >
            
             
         <div className="container">
