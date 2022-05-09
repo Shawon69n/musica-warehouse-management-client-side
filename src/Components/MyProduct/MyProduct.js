@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
 
@@ -33,6 +34,12 @@ const MyProduct = () => {
         }
     }
 
+    const navigate = useNavigate();
+    const navigateToInventory = () =>{
+        navigate('/manageinventory')
+    }
+
+
     return (
         <div>
             
@@ -53,7 +60,7 @@ const MyProduct = () => {
                  <td>{product?.name}</td>
                  <td>{user?.email}</td>
                  <td>
-                     <button  className='delivery-btn'>Update</button>
+                     <button onClick={navigateToInventory} className='delivery-btn'>Manage inventory</button>
                      <button onClick={() => handleRemoveBtn(product?._id)} className='remove-btn'>Remove</button>
                  </td>
                </tr>

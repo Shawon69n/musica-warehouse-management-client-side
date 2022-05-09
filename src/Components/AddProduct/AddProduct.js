@@ -52,28 +52,6 @@ const AddProduct = () => {
             <input className='mb-2' type="text" name='img' placeholder='img url' required />
             <input type="submit" value="Add product" />
         </form>
-
-
-
-
-
-<ToastContainer></ToastContainer>
-
-
-
-
-
-
-
-    {/* <form className='d-flex flex-column' onSubmit={handleSubmit(onSubmit)}>
-      <input className='mb-2' placeholder='Name'  {...register("Name")} />
-      <input className='mb-2' placeholder='Supplier' {...register("supplier")} />
-      <input className='mb-2' placeholder='Quantity' type='number' {...register("quantity")} />
-      <textarea className='mb-2' placeholder='Description' {...register("description")} />
-      <input className='mb-2' placeholder='Img url' {...register("img")} />
-      <input className='mb-2' placeholder='Price' type="number" {...register("price")} />
-      <input type="submit" value='Add product' />
-    </form> */}
         </div>
     );
 };
