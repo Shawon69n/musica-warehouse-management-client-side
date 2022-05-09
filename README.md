@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# My website name : Musica
+## Live website link: https://assignment-11-warehouse-86f7a.web.app
+### Description : This website is about a musical instrument warehouse. Where you can add , update and remove a product. Only verified people can update , remove and add products.
+
+### My website features : 
+* I have created this website using reactjs
+* I have used react router for routing.
+* For authentication system I've used Firebase and react fire base hooks.
+* For styling my website I've used react-bootstrap and vanila css.
+* Used reacts library react-tostify and react-countup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
