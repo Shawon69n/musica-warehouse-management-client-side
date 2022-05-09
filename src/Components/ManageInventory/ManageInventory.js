@@ -11,7 +11,7 @@ const ManageInventory = () => {
     const [user] = useAuthState(auth);
 
     useEffect(() =>{
-        fetch('http://localhost:5000/products')
+        fetch('https://ancient-gorge-82683.herokuapp.com/products')
         .then(res => res.json())
         .then(data => setProducts(data))
     },[])
@@ -28,7 +28,7 @@ const ManageInventory = () => {
     const handleRemoveBtn = id =>{
         const confirm = window.confirm('You sure want to remove ?')
         if(confirm){
-            fetch(`http://localhost:5000/products/${id}`, {
+            fetch(`https://ancient-gorge-82683.herokuapp.com/products/${id}`, {
             method: 'DELETE'
         })
             .then((response) => response.json())

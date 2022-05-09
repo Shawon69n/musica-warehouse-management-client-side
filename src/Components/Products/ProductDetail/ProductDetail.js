@@ -6,7 +6,7 @@ const ProductDetail = () => {
     const [product,setProduct] = useState([]);
     const {name,img,quantity,price,description,supplier} = product;
     useEffect(()=>{
-        const url = `http://localhost:5000/products/${productId}`
+        const url = `https://ancient-gorge-82683.herokuapp.com/products/${productId}`
         fetch(url)
         .then(res => res.json())
         .then(data => setProduct(data))
@@ -17,7 +17,7 @@ const ProductDetail = () => {
             let Remaining = parseFloat(+ product.quantity) - 1
             let newProduct = { img, name, price, quantity: Remaining, description, supplier }
             setProduct(newProduct)
-            fetch(`http://localhost:5000/products/${productId}`, {
+            fetch(`https://ancient-gorge-82683.herokuapp.com/products/${productId}`, {
                 method: 'PUT',
                 body: JSON.stringify(newProduct),
                 headers: {
@@ -38,7 +38,7 @@ const ProductDetail = () => {
         let updatedQuantity = parseFloat(+ product.quantity) + parseFloat(e.target.updatequantity.value)
         let newProduct = { img, name, price, quantity: updatedQuantity, description, supplier }
         setProduct(newProduct)
-        fetch(`http://localhost:5000/products/${productId}`, {
+        fetch(`https://ancient-gorge-82683.herokuapp.com/products/${productId}`, {
             method: 'PUT',
             body: JSON.stringify(newProduct),
             headers: {

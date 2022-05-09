@@ -9,7 +9,7 @@ const MyProduct = () => {
     console.log(products);
     const [user] = useAuthState(auth);
     useEffect(() =>{
-        fetch(`http://localhost:5000/addproduct?email=${user?.email}`,{
+        fetch(`https://ancient-gorge-82683.herokuapp.com/myproducts?email=${user?.email}`,{
             method: 'GET'
         })
         .then(res => res.json())
@@ -19,7 +19,7 @@ const MyProduct = () => {
     const handleRemoveBtn = id =>{
         const confirm = window.confirm('You sure want to remove ?')
         if(confirm){
-            fetch(`http://localhost:5000/addproduct/${id}`, {
+            fetch(`https://ancient-gorge-82683.herokuapp.com/products/${id}`, {
             method: 'DELETE'
         })
             .then((response) => response.json())

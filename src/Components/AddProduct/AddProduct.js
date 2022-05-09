@@ -22,7 +22,7 @@ const AddProduct = () => {
       
           }
 
-          fetch('http://localhost:5000/addproduct', {
+          fetch('https://ancient-gorge-82683.herokuapp.com/products', {
       method: 'POST',
       body: JSON.stringify(productDetail),
       headers: {

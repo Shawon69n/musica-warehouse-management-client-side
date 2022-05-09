@@ -4,8 +4,9 @@ import './Products.css'
 
 const Products = () => {
     const [products,setProducts] = useState([]);
+    console.log(products);
     useEffect(()=>{
-        fetch('http://localhost:5000/products')
+        fetch('https://ancient-gorge-82683.herokuapp.com/products')
         .then(res => res.json())
         .then(data => setProducts(data))
     
@@ -22,7 +23,7 @@ const Products = () => {
             <h3 className='mt-5'>Items</h3>
 
            <div className='products-container'>
-           {products?.slice(1,7).map(product => <>
+           {products?.slice(0,6).map(product => <>
                 
             <div className="card">
     <div className="card-header">
