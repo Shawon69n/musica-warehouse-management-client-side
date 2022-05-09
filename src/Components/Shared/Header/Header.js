@@ -15,7 +15,11 @@ const Header = () => {
       <nav>
       <Navbar className='p-3 nav-bg' collapseOnSelect expand="lg" >
 <Container>
-<Navbar.Brand ><h4> Musica</h4></Navbar.Brand>
+<Navbar.Brand > 
+  <div className='d-flex'>
+  <img className='img-width' src={`https://i.pinimg.com/originals/4c/68/3b/4c683b9bfa9a04be30f3036015835acd.jpg`} alt="" /><h4> Musica</h4>
+  </div>
+</Navbar.Brand>
 
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 <Navbar.Collapse id="responsive-navbar-nav">

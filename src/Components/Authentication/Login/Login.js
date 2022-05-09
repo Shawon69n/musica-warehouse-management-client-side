@@ -102,7 +102,7 @@ const Login = () => {
 
             <p>Forget password? <Link className='text-deco' to="/login"  onClick={resetPassword}>Reset password</Link> </p>
 
-            <button onClick={() => signInWithGoogle()}> <img style={{width:'25px'}} src={Glogo} alt="" /> sign in</button>
+            <button onClick={() => signInWithGoogle()}> <img style={{width:'25px'}} src={Glogo} alt="" /> Log in</button>
         </form>
 
 

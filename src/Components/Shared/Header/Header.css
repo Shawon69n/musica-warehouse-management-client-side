@@ -6,6 +6,12 @@
     font-weight: 700;
 }
 
+.img-width{
+    width: 50px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
 .nav-bg{
     background-color:#c0ddfa;
     font-size: 18px;
