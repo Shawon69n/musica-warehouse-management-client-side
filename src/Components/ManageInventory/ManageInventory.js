@@ -49,7 +49,7 @@ const ManageInventory = () => {
     <tr>
       <th>Name</th>
       <th>Email</th>
-      <th>Username</th>
+      <th>Handle</th>
     </tr>
   </thead>
     {products.map(product => 

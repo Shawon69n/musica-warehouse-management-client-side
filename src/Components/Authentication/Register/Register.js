@@ -61,6 +61,7 @@ const Register = () => {
     
      if(GoogleUser){
         navigate('/home')
+        console.log(GoogleUser);
     }
 
     return (

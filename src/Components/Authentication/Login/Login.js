@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './Login.css'
 import Glogo from '../../../Assets/Glogo.png'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -49,6 +49,7 @@ const Login = () => {
         hookError,
       ] = useSignInWithEmailAndPassword(auth);
 
+
     const handleOnSubmit = (e) =>{
         e.preventDefault();
         signInWithEmailAndPassword(email,password)
@@ -80,6 +81,7 @@ const Login = () => {
     const [signInWithGoogle, GoogleUser, Gloading, Gerror] = useSignInWithGoogle(auth);
     if(GoogleUser){
         navigate(from,{replace:true})
+        console.log(GoogleUser);
     }
 
     return (
@@ -103,7 +105,7 @@ const Login = () => {
             <button onClick={() => signInWithGoogle()}> <img style={{width:'25px'}} src={Glogo} alt="" /> sign in</button>
         </form>
 
-        <ToastContainer></ToastContainer>
+
         
     </div>
     );
