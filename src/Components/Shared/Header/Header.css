@@ -2,14 +2,21 @@
     margin-right: 10px;
     text-decoration: none;
     font-size: 19px;
-    color: aliceblue;
+    color: rgb(68, 100, 241);
+    font-weight: 700;
 }
 
 .nav-bg{
-    background-color:#62a1c5;
+    background-color:#c0ddfa;
     font-size: 18px;
     font-weight: 700;
     font-family: serif;
+}
+
+.nav-bg h4{
+    color: rgb(68, 100, 241);
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .sign-out-btn{

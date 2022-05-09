@@ -30,7 +30,7 @@ const Header = () => {
 {user &&  <Link className='link-css' to='/manageinventory'>Manage Inventory</Link> }
 {user && <Link className='link-css' to='/addproduct'>Add Product</Link> }
 
-{user? <p onClick={handleSignOut} className='sign-out-btn'><span className='text-white span-text'>sign out</span></p> : <Link as={Link} to='/login'> <span className='text-white link-css text-deco'>Log in</span></Link>}
+{user? <p onClick={handleSignOut} className='sign-out-btn'><span className='text-white span-text'>sign out</span></p> : <Link className='link-css' to='/Login'>Login</Link>}
 
 
 

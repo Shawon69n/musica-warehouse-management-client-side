@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import './ProductDetail.css'
 const ProductDetail = () => {
     const {productId} = useParams();
@@ -52,6 +52,11 @@ const ProductDetail = () => {
             )
     }
 
+    const navigate = useNavigate();
+
+    const navigateToInventory = () =>{
+        navigate('/manageinventory')
+    }
 
     return (
 
@@ -71,6 +76,7 @@ const ProductDetail = () => {
 
                     <div>
                         <button onClick={() => handleDelivery(quantity)} className='delivery-btn'>delivered</button>
+                        <button onClick={navigateToInventory} className='manage-btn'>Manage inventory</button>
                         
                         <form onSubmit={handleRestock}>
                         <input
