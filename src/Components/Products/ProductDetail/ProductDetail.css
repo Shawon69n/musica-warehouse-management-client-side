@@ -1,14 +1,14 @@
 .delivery-btn{
     border: 1px solid rgb(182, 196, 202);
-    border-radius: 2px;
+    border-radius: 5px;
     color: #fafafa;
-    background-color: rgb(50, 101, 209);
+    background-color:#47bcd4;
     font-weight: 700;
     padding: 5px;
 }
 .input-btn{
     border: 1px solid rgb(182, 196, 202);
-    border-radius: 2px;
+    border-radius: 5px;
     color: #fafafa;
     background-color: rgb(59, 206, 145);
     font-weight: 700;

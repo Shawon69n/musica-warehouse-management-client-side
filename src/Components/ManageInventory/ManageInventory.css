@@ -1,0 +1,9 @@
+.remove-btn{
+    border: 1px solid rgb(182, 196, 202);
+    border-radius: 5px;
+    color: #fafafa;
+    background-color: rgb(209, 50, 50);
+    font-weight: 700;
+    padding: 5px;
+    margin-left: 5px;
+}

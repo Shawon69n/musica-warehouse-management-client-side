@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import './Products.css'
 
 const Products = () => {
-    // const [Products] = useProducts();
     const [products,setProducts] = useState([]);
     console.log(products);
     useEffect(()=>{
@@ -26,12 +25,12 @@ const Products = () => {
            <div className='products-container'>
            {products?.slice(1,7).map(product => <>
                 
-            <div class="card">
-    <div class="card-header">
+            <div className="card">
+    <div className="card-header">
       <img src={product?.img} alt="rover" />
     </div>
-    <div class="card-body">
-      <span class="tag tag-teal">{product?.supplier}</span>
+    <div className="card-body">
+      <span className="tag tag-teal">{product?.supplier}</span>
       <h4>
         {product?.name}
       </h4>
@@ -41,7 +40,7 @@ const Products = () => {
       </p>    
 
            <div className='d-flex'>
-           <button className='btn btn-primary' onClick={() => handleDeliveryBtn(product?._id)}>Delivery</button>
+           <button className='delivery-btn' onClick={() => handleDeliveryBtn(product?._id)}>Delivery</button>
            <h6 className='mx-4'>Available : {product?.quantity}</h6>
            </div>
     </div>

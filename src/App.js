@@ -7,6 +7,7 @@ import Register from './Components/Authentication/Register/Register';
 import RequiredAuth from './Components/Authentication/RequiredAuth/RequiredAuth';
 import Blogs from './Components/Blogs/Blogs';
 import Home from './Components/Home/Home';
+import ManageInventory from './Components/ManageInventory/ManageInventory';
 import ProductDetail from './Components/Products/ProductDetail/ProductDetail';
 import Footer from './Components/Shared/Footer/Footer';
 import Navbar from './Components/Shared/Header/Header';
@@ -23,6 +24,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/products/:productId' element={<RequiredAuth><ProductDetail></ProductDetail></RequiredAuth>}></Route>
         <Route path='/addproduct' element={<AddProduct></AddProduct>}></Route>
+        <Route path='/manageinventory' element={<ManageInventory></ManageInventory>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
